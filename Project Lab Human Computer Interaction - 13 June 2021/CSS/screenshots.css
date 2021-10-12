@@ -1,0 +1,167 @@
+body {
+    background-color: black;
+}
+
+nav {
+    overflow: hidden;
+}
+
+.home {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+    float: left;
+    margin-left: 880px;
+    border: none;
+    color: #e12525;
+}
+
+#searchBar {
+    padding: 5px;
+    border: none;
+    font-size: 13px;
+    margin-top: 4px;
+    margin-right: 250px;
+    float: right;
+    border-radius: 20px;
+    background-image: url(/Assets/Vector_search_icon.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+    padding-left: 26px;
+}
+
+.dropdown-menu {
+    float: right;
+    margin-top: 4px;
+    margin-right: -330px;
+    width: 60px;
+}
+
+.dropdown-links {
+    display: none;
+    background-color: whitesmoke;
+    width: 160px;
+    position: absolute;
+}
+
+.dropdown-links a {
+    text-decoration: none;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+    display: block;
+}
+
+.dropdown-menu:hover .dropdown-links {
+    display: block;
+    z-index: 2;
+}
+
+.dropdown-links a:hover {
+    background-color: lightgray;
+}
+
+.playNow:hover {
+    color: #e12525;
+}
+
+#stripe {
+    max-width: 55px;
+    height: 6px;
+    background-color: white;
+    border-radius: 22px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.ellipseTop {
+    position: fixed;
+    left: 0;
+    top: 0;
+    max-width: 360px;
+    z-index: -1;
+}
+
+.ellipseBottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    max-width: 415px;
+    z-index: -1;
+}
+
+.whiteEdge {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.gameLogo {
+    position: fixed;
+    right: 5px;
+    top: 560px;
+    width: 200px;
+}
+
+#screenshot {
+    position: static;
+    width: 50%;
+    margin-left: 390px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 800px){
+    .home {
+        margin-left: 228px;
+        margin-bottom: 8px;
+        position: relative;
+        overflow: auto;
+    }
+
+    #searchBar {
+        margin-top: 4px;
+        margin-right: 160px;
+    }
+
+    .dropdown-menu {
+        margin-right: -280px;
+    }
+
+    .ellipseTop {
+        position: fixed;
+        left: 0;
+        top: 0;
+        max-width: 190px;
+        z-index: -1;
+    }
+    
+    .ellipseBottom {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        max-width: 215px;
+        z-index: -1;
+    }
+    
+    .whiteEdge {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        max-width: 200px;
+    }
+    
+    .gameLogo {
+        position: fixed;
+        right: 5px;
+        top: 590px;
+        width: 150px;
+    }
+
+    #screenshot {
+        position: static;
+        width: 60%;
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+}

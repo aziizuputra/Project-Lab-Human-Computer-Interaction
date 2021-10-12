@@ -1,0 +1,295 @@
+body {
+    background-color: black;
+}
+
+nav {
+    overflow: hidden;
+}
+
+.home {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+    float: left;
+    margin-left: 910px;
+    border: none;
+    color: #e12525;
+}
+
+#searchBar {
+    padding: 5px;
+    border: none;
+    font-size: 13px;
+    margin-top: 4px;
+    margin-right: 250px;
+    float: right;
+    border-radius: 20px;
+    background-image: url(/Assets/Vector_search_icon.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+    padding-left: 26px;
+}
+
+.dropdown-menu {
+    float: right;
+    margin-top: 4px;
+    margin-right: -330px;
+    width: 60px;
+}
+
+.dropdown-links {
+    display: none;
+    background-color: whitesmoke;
+    width: 160px;
+    position: absolute;
+}
+
+.dropdown-links a {
+    text-decoration: none;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+    display: block;
+}
+
+.dropdown-menu:hover .dropdown-links {
+    display: block;
+    z-index: 2;
+}
+
+.dropdown-links a:hover {
+    background-color: lightgray;
+}
+
+.playNow:hover {
+    color: #e12525;
+}
+
+#stripe {
+    max-width: 55px;
+    height: 6px;
+    background-color: white;
+    border-radius: 22px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.ellipseTop {
+    position: fixed;
+    left: 0;
+    top: 0;
+    max-width: 360px;
+    z-index: -1;
+}
+
+.ellipseBottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    max-width: 415px;
+    z-index: -1;
+}
+
+.whiteEdge {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.gameLogo {
+    position: fixed;
+    right: 5px;
+    top: 560px;
+    width: 200px;
+}
+
+.form-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 32px;
+    margin-top: 40px;
+    border: none;
+}
+
+#name {
+    margin-left: 40%;
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#email {
+    margin-top: 20px;
+    margin-left: 40%;
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#password {
+    margin-top: 20px;
+    margin-left: 40%;
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#gender {
+    height: 20px;
+    width: 30px;
+    position: absolute;
+    left: 39.5%;
+}
+
+.gender {
+    margin-top: 20px;
+    margin-left: 39.5%;
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+.gender-container {
+    margin-left: 70px;
+}
+
+.terms {
+    margin-top: 20px;
+    margin-left: 39.5%;
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+#terms {
+    margin-left: 8px;
+    width: 20px;
+    height: 20px;
+}
+
+.TnC {
+    text-decoration: none;
+    color: aqua;
+}
+
+#submit {
+    width: 80px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 48%;
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@media screen and (max-width: 800px){
+    .home {
+        margin-left: 238px;
+        margin-bottom: 8px;
+        position: relative;
+        overflow: auto;
+    }
+
+    #searchBar {
+        margin-top: 4px;
+        margin-right: 160px;
+    }
+
+    .dropdown-menu {
+        margin-right: -280px;
+    }
+
+    .ellipseTop {
+        position: fixed;
+        left: 0;
+        top: 0;
+        max-width: 190px;
+        z-index: -1;
+    }
+    
+    .ellipseBottom {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        max-width: 215px;
+        z-index: -1;
+    }
+    
+    .whiteEdge {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        max-width: 200px;
+    }
+    
+    .gameLogo {
+        position: fixed;
+        right: 5px;
+        top: 590px;
+        width: 150px;
+    }
+
+    #name {
+        margin-left: 30%;
+        width: 300px;
+        height: 30px;
+        font-size: 16px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+    #email {
+        margin-top: 20px;
+        margin-left: 30%;
+        width: 300px;
+        height: 30px;
+        font-size: 16px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+    #password {
+        margin-top: 20px;
+        margin-left: 30%;
+    }
+    
+    #gender {
+        left: 29%;
+    }
+    
+    .gender {
+        margin-top: 20px;
+        margin-left: 28%;
+    }
+    
+    .gender-container {
+        margin-left: 50px;
+    }
+    
+    .terms {
+        margin-top: 20px;
+        margin-left: 29%;
+    }
+    
+    #submit {
+        margin-left: 45%;
+    }
+}
